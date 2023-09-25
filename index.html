@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <META NAME="Author" CONTENT="Ho Ngoc Duc">
@@ -11,9 +11,12 @@
 </script>
 </head>
 <body onLoad="">
-<script language="javascript">
-	document.write("<h1>" + getTodayString() + "</h1>");
+<div id="text"></div>
+ 
+<script>
+document.getElementById("text").innerHTML = ("<h1>" + getTodayString() + "</h1>");
 </script>
+
 
 </body>
 </html>
